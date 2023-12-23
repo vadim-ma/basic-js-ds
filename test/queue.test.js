@@ -2,6 +2,7 @@ const { assert } = require('chai');
 const { testOptional } = require('../extensions/index.js');
 const { Queue } = require('../src/queue.js');
 
+
 it.optional = testOptional;
 
 Object.freeze(assert);
